@@ -1,0 +1,668 @@
+Layer 0: input float32
+Layer 1: conv1_pad float32
+Layer 2: conv1_conv float32
+   Layer has 2 weights
+  [conv1_conv/kernel:0] (7, 7, 3, 64) <dtype: 'float32'>
+  [conv1_conv/bias:0] (64,) <dtype: 'float32'>
+Layer 3: conv1_bn float32
+   Layer has 4 weights
+  [conv1_bn/gamma:0] (64,) <dtype: 'float32'>
+  [conv1_bn/beta:0] (64,) <dtype: 'float32'>
+  [conv1_bn/moving_mean:0] (64,) <dtype: 'float32'>
+  [conv1_bn/moving_variance:0] (64,) <dtype: 'float32'>
+Layer 4: conv1_relu float32
+Layer 5: pool1_pad float32
+Layer 6: pool1_pool float32
+Layer 7: conv2_block1_1_conv float32
+   Layer has 2 weights
+  [conv2_block1_1_conv/kernel:0] (1, 1, 64, 64) <dtype: 'float32'>
+  [conv2_block1_1_conv/bias:0] (64,) <dtype: 'float32'>
+Layer 8: conv2_block1_1_bn float32
+   Layer has 4 weights
+  [conv2_block1_1_bn/gamma:0] (64,) <dtype: 'float32'>
+  [conv2_block1_1_bn/beta:0] (64,) <dtype: 'float32'>
+  [conv2_block1_1_bn/moving_mean:0] (64,) <dtype: 'float32'>
+  [conv2_block1_1_bn/moving_variance:0] (64,) <dtype: 'float32'>
+Layer 9: conv2_block1_1_relu float32
+Layer 10: conv2_block1_2_conv float32
+   Layer has 2 weights
+  [conv2_block1_2_conv/kernel:0] (3, 3, 64, 64) <dtype: 'float32'>
+  [conv2_block1_2_conv/bias:0] (64,) <dtype: 'float32'>
+Layer 11: conv2_block1_2_bn float32
+   Layer has 4 weights
+  [conv2_block1_2_bn/gamma:0] (64,) <dtype: 'float32'>
+  [conv2_block1_2_bn/beta:0] (64,) <dtype: 'float32'>
+  [conv2_block1_2_bn/moving_mean:0] (64,) <dtype: 'float32'>
+  [conv2_block1_2_bn/moving_variance:0] (64,) <dtype: 'float32'>
+Layer 12: conv2_block1_2_relu float32
+Layer 13: conv2_block1_0_conv float32
+   Layer has 2 weights
+  [conv2_block1_0_conv/kernel:0] (1, 1, 64, 256) <dtype: 'float32'>
+  [conv2_block1_0_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 14: conv2_block1_3_conv float32
+   Layer has 2 weights
+  [conv2_block1_3_conv/kernel:0] (1, 1, 64, 256) <dtype: 'float32'>
+  [conv2_block1_3_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 15: conv2_block1_0_bn float32
+   Layer has 4 weights
+  [conv2_block1_0_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv2_block1_0_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv2_block1_0_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv2_block1_0_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 16: conv2_block1_3_bn float32
+   Layer has 4 weights
+  [conv2_block1_3_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv2_block1_3_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv2_block1_3_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv2_block1_3_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 17: conv2_block1_add float32
+Layer 18: conv2_block1_out float32
+Layer 19: conv2_block2_1_conv float32
+   Layer has 2 weights
+  [conv2_block2_1_conv/kernel:0] (1, 1, 256, 64) <dtype: 'float32'>
+  [conv2_block2_1_conv/bias:0] (64,) <dtype: 'float32'>
+Layer 20: conv2_block2_1_bn float32
+   Layer has 4 weights
+  [conv2_block2_1_bn/gamma:0] (64,) <dtype: 'float32'>
+  [conv2_block2_1_bn/beta:0] (64,) <dtype: 'float32'>
+  [conv2_block2_1_bn/moving_mean:0] (64,) <dtype: 'float32'>
+  [conv2_block2_1_bn/moving_variance:0] (64,) <dtype: 'float32'>
+Layer 21: conv2_block2_1_relu float32
+Layer 22: conv2_block2_2_conv float32
+   Layer has 2 weights
+  [conv2_block2_2_conv/kernel:0] (3, 3, 64, 64) <dtype: 'float32'>
+  [conv2_block2_2_conv/bias:0] (64,) <dtype: 'float32'>
+Layer 23: conv2_block2_2_bn float32
+   Layer has 4 weights
+  [conv2_block2_2_bn/gamma:0] (64,) <dtype: 'float32'>
+  [conv2_block2_2_bn/beta:0] (64,) <dtype: 'float32'>
+  [conv2_block2_2_bn/moving_mean:0] (64,) <dtype: 'float32'>
+  [conv2_block2_2_bn/moving_variance:0] (64,) <dtype: 'float32'>
+Layer 24: conv2_block2_2_relu float32
+Layer 25: conv2_block2_3_conv float32
+   Layer has 2 weights
+  [conv2_block2_3_conv/kernel:0] (1, 1, 64, 256) <dtype: 'float32'>
+  [conv2_block2_3_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 26: conv2_block2_3_bn float32
+   Layer has 4 weights
+  [conv2_block2_3_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv2_block2_3_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv2_block2_3_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv2_block2_3_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 27: conv2_block2_add float32
+Layer 28: conv2_block2_out float32
+Layer 29: conv2_block3_1_conv float32
+   Layer has 2 weights
+  [conv2_block3_1_conv/kernel:0] (1, 1, 256, 64) <dtype: 'float32'>
+  [conv2_block3_1_conv/bias:0] (64,) <dtype: 'float32'>
+Layer 30: conv2_block3_1_bn float32
+   Layer has 4 weights
+  [conv2_block3_1_bn/gamma:0] (64,) <dtype: 'float32'>
+  [conv2_block3_1_bn/beta:0] (64,) <dtype: 'float32'>
+  [conv2_block3_1_bn/moving_mean:0] (64,) <dtype: 'float32'>
+  [conv2_block3_1_bn/moving_variance:0] (64,) <dtype: 'float32'>
+Layer 31: conv2_block3_1_relu float32
+Layer 32: conv2_block3_2_conv float32
+   Layer has 2 weights
+  [conv2_block3_2_conv/kernel:0] (3, 3, 64, 64) <dtype: 'float32'>
+  [conv2_block3_2_conv/bias:0] (64,) <dtype: 'float32'>
+Layer 33: conv2_block3_2_bn float32
+   Layer has 4 weights
+  [conv2_block3_2_bn/gamma:0] (64,) <dtype: 'float32'>
+  [conv2_block3_2_bn/beta:0] (64,) <dtype: 'float32'>
+  [conv2_block3_2_bn/moving_mean:0] (64,) <dtype: 'float32'>
+  [conv2_block3_2_bn/moving_variance:0] (64,) <dtype: 'float32'>
+Layer 34: conv2_block3_2_relu float32
+Layer 35: conv2_block3_3_conv float32
+   Layer has 2 weights
+  [conv2_block3_3_conv/kernel:0] (1, 1, 64, 256) <dtype: 'float32'>
+  [conv2_block3_3_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 36: conv2_block3_3_bn float32
+   Layer has 4 weights
+  [conv2_block3_3_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv2_block3_3_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv2_block3_3_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv2_block3_3_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 37: conv2_block3_add float32
+Layer 38: conv2_block3_out float32
+Layer 39: conv3_block1_1_conv float32
+   Layer has 2 weights
+  [conv3_block1_1_conv/kernel:0] (1, 1, 256, 128) <dtype: 'float32'>
+  [conv3_block1_1_conv/bias:0] (128,) <dtype: 'float32'>
+Layer 40: conv3_block1_1_bn float32
+   Layer has 4 weights
+  [conv3_block1_1_bn/gamma:0] (128,) <dtype: 'float32'>
+  [conv3_block1_1_bn/beta:0] (128,) <dtype: 'float32'>
+  [conv3_block1_1_bn/moving_mean:0] (128,) <dtype: 'float32'>
+  [conv3_block1_1_bn/moving_variance:0] (128,) <dtype: 'float32'>
+Layer 41: conv3_block1_1_relu float32
+Layer 42: conv3_block1_2_conv float32
+   Layer has 2 weights
+  [conv3_block1_2_conv/kernel:0] (3, 3, 128, 128) <dtype: 'float32'>
+  [conv3_block1_2_conv/bias:0] (128,) <dtype: 'float32'>
+Layer 43: conv3_block1_2_bn float32
+   Layer has 4 weights
+  [conv3_block1_2_bn/gamma:0] (128,) <dtype: 'float32'>
+  [conv3_block1_2_bn/beta:0] (128,) <dtype: 'float32'>
+  [conv3_block1_2_bn/moving_mean:0] (128,) <dtype: 'float32'>
+  [conv3_block1_2_bn/moving_variance:0] (128,) <dtype: 'float32'>
+Layer 44: conv3_block1_2_relu float32
+Layer 45: conv3_block1_0_conv float32
+   Layer has 2 weights
+  [conv3_block1_0_conv/kernel:0] (1, 1, 256, 512) <dtype: 'float32'>
+  [conv3_block1_0_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 46: conv3_block1_3_conv float32
+   Layer has 2 weights
+  [conv3_block1_3_conv/kernel:0] (1, 1, 128, 512) <dtype: 'float32'>
+  [conv3_block1_3_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 47: conv3_block1_0_bn float32
+   Layer has 4 weights
+  [conv3_block1_0_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv3_block1_0_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv3_block1_0_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv3_block1_0_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 48: conv3_block1_3_bn float32
+   Layer has 4 weights
+  [conv3_block1_3_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv3_block1_3_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv3_block1_3_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv3_block1_3_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 49: conv3_block1_add float32
+Layer 50: conv3_block1_out float32
+Layer 51: conv3_block2_1_conv float32
+   Layer has 2 weights
+  [conv3_block2_1_conv/kernel:0] (1, 1, 512, 128) <dtype: 'float32'>
+  [conv3_block2_1_conv/bias:0] (128,) <dtype: 'float32'>
+Layer 52: conv3_block2_1_bn float32
+   Layer has 4 weights
+  [conv3_block2_1_bn/gamma:0] (128,) <dtype: 'float32'>
+  [conv3_block2_1_bn/beta:0] (128,) <dtype: 'float32'>
+  [conv3_block2_1_bn/moving_mean:0] (128,) <dtype: 'float32'>
+  [conv3_block2_1_bn/moving_variance:0] (128,) <dtype: 'float32'>
+Layer 53: conv3_block2_1_relu float32
+Layer 54: conv3_block2_2_conv float32
+   Layer has 2 weights
+  [conv3_block2_2_conv/kernel:0] (3, 3, 128, 128) <dtype: 'float32'>
+  [conv3_block2_2_conv/bias:0] (128,) <dtype: 'float32'>
+Layer 55: conv3_block2_2_bn float32
+   Layer has 4 weights
+  [conv3_block2_2_bn/gamma:0] (128,) <dtype: 'float32'>
+  [conv3_block2_2_bn/beta:0] (128,) <dtype: 'float32'>
+  [conv3_block2_2_bn/moving_mean:0] (128,) <dtype: 'float32'>
+  [conv3_block2_2_bn/moving_variance:0] (128,) <dtype: 'float32'>
+Layer 56: conv3_block2_2_relu float32
+Layer 57: conv3_block2_3_conv float32
+   Layer has 2 weights
+  [conv3_block2_3_conv/kernel:0] (1, 1, 128, 512) <dtype: 'float32'>
+  [conv3_block2_3_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 58: conv3_block2_3_bn float32
+   Layer has 4 weights
+  [conv3_block2_3_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv3_block2_3_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv3_block2_3_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv3_block2_3_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 59: conv3_block2_add float32
+Layer 60: conv3_block2_out float32
+Layer 61: conv3_block3_1_conv float32
+   Layer has 2 weights
+  [conv3_block3_1_conv/kernel:0] (1, 1, 512, 128) <dtype: 'float32'>
+  [conv3_block3_1_conv/bias:0] (128,) <dtype: 'float32'>
+Layer 62: conv3_block3_1_bn float32
+   Layer has 4 weights
+  [conv3_block3_1_bn/gamma:0] (128,) <dtype: 'float32'>
+  [conv3_block3_1_bn/beta:0] (128,) <dtype: 'float32'>
+  [conv3_block3_1_bn/moving_mean:0] (128,) <dtype: 'float32'>
+  [conv3_block3_1_bn/moving_variance:0] (128,) <dtype: 'float32'>
+Layer 63: conv3_block3_1_relu float32
+Layer 64: conv3_block3_2_conv float32
+   Layer has 2 weights
+  [conv3_block3_2_conv/kernel:0] (3, 3, 128, 128) <dtype: 'float32'>
+  [conv3_block3_2_conv/bias:0] (128,) <dtype: 'float32'>
+Layer 65: conv3_block3_2_bn float32
+   Layer has 4 weights
+  [conv3_block3_2_bn/gamma:0] (128,) <dtype: 'float32'>
+  [conv3_block3_2_bn/beta:0] (128,) <dtype: 'float32'>
+  [conv3_block3_2_bn/moving_mean:0] (128,) <dtype: 'float32'>
+  [conv3_block3_2_bn/moving_variance:0] (128,) <dtype: 'float32'>
+Layer 66: conv3_block3_2_relu float32
+Layer 67: conv3_block3_3_conv float32
+   Layer has 2 weights
+  [conv3_block3_3_conv/kernel:0] (1, 1, 128, 512) <dtype: 'float32'>
+  [conv3_block3_3_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 68: conv3_block3_3_bn float32
+   Layer has 4 weights
+  [conv3_block3_3_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv3_block3_3_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv3_block3_3_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv3_block3_3_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 69: conv3_block3_add float32
+Layer 70: conv3_block3_out float32
+Layer 71: conv3_block4_1_conv float32
+   Layer has 2 weights
+  [conv3_block4_1_conv/kernel:0] (1, 1, 512, 128) <dtype: 'float32'>
+  [conv3_block4_1_conv/bias:0] (128,) <dtype: 'float32'>
+Layer 72: conv3_block4_1_bn float32
+   Layer has 4 weights
+  [conv3_block4_1_bn/gamma:0] (128,) <dtype: 'float32'>
+  [conv3_block4_1_bn/beta:0] (128,) <dtype: 'float32'>
+  [conv3_block4_1_bn/moving_mean:0] (128,) <dtype: 'float32'>
+  [conv3_block4_1_bn/moving_variance:0] (128,) <dtype: 'float32'>
+Layer 73: conv3_block4_1_relu float32
+Layer 74: conv3_block4_2_conv float32
+   Layer has 2 weights
+  [conv3_block4_2_conv/kernel:0] (3, 3, 128, 128) <dtype: 'float32'>
+  [conv3_block4_2_conv/bias:0] (128,) <dtype: 'float32'>
+Layer 75: conv3_block4_2_bn float32
+   Layer has 4 weights
+  [conv3_block4_2_bn/gamma:0] (128,) <dtype: 'float32'>
+  [conv3_block4_2_bn/beta:0] (128,) <dtype: 'float32'>
+  [conv3_block4_2_bn/moving_mean:0] (128,) <dtype: 'float32'>
+  [conv3_block4_2_bn/moving_variance:0] (128,) <dtype: 'float32'>
+Layer 76: conv3_block4_2_relu float32
+Layer 77: conv3_block4_3_conv float32
+   Layer has 2 weights
+  [conv3_block4_3_conv/kernel:0] (1, 1, 128, 512) <dtype: 'float32'>
+  [conv3_block4_3_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 78: conv3_block4_3_bn float32
+   Layer has 4 weights
+  [conv3_block4_3_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv3_block4_3_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv3_block4_3_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv3_block4_3_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 79: conv3_block4_add float32
+Layer 80: conv3_block4_out float32
+Layer 81: conv4_block1_1_conv float32
+   Layer has 2 weights
+  [conv4_block1_1_conv/kernel:0] (1, 1, 512, 256) <dtype: 'float32'>
+  [conv4_block1_1_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 82: conv4_block1_1_bn float32
+   Layer has 4 weights
+  [conv4_block1_1_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block1_1_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block1_1_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block1_1_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 83: conv4_block1_1_relu float32
+Layer 84: conv4_block1_2_conv float32
+   Layer has 2 weights
+  [conv4_block1_2_conv/kernel:0] (3, 3, 256, 256) <dtype: 'float32'>
+  [conv4_block1_2_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 85: conv4_block1_2_bn float32
+   Layer has 4 weights
+  [conv4_block1_2_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block1_2_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block1_2_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block1_2_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 86: conv4_block1_2_relu float32
+Layer 87: conv4_block1_0_conv float32
+   Layer has 2 weights
+  [conv4_block1_0_conv/kernel:0] (1, 1, 512, 1024) <dtype: 'float32'>
+  [conv4_block1_0_conv/bias:0] (1024,) <dtype: 'float32'>
+Layer 88: conv4_block1_3_conv float32
+   Layer has 2 weights
+  [conv4_block1_3_conv/kernel:0] (1, 1, 256, 1024) <dtype: 'float32'>
+  [conv4_block1_3_conv/bias:0] (1024,) <dtype: 'float32'>
+Layer 89: conv4_block1_0_bn float32
+   Layer has 4 weights
+  [conv4_block1_0_bn/gamma:0] (1024,) <dtype: 'float32'>
+  [conv4_block1_0_bn/beta:0] (1024,) <dtype: 'float32'>
+  [conv4_block1_0_bn/moving_mean:0] (1024,) <dtype: 'float32'>
+  [conv4_block1_0_bn/moving_variance:0] (1024,) <dtype: 'float32'>
+Layer 90: conv4_block1_3_bn float32
+   Layer has 4 weights
+  [conv4_block1_3_bn/gamma:0] (1024,) <dtype: 'float32'>
+  [conv4_block1_3_bn/beta:0] (1024,) <dtype: 'float32'>
+  [conv4_block1_3_bn/moving_mean:0] (1024,) <dtype: 'float32'>
+  [conv4_block1_3_bn/moving_variance:0] (1024,) <dtype: 'float32'>
+Layer 91: conv4_block1_add float32
+Layer 92: conv4_block1_out float32
+Layer 93: conv4_block2_1_conv float32
+   Layer has 2 weights
+  [conv4_block2_1_conv/kernel:0] (1, 1, 1024, 256) <dtype: 'float32'>
+  [conv4_block2_1_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 94: conv4_block2_1_bn float32
+   Layer has 4 weights
+  [conv4_block2_1_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block2_1_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block2_1_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block2_1_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 95: conv4_block2_1_relu float32
+Layer 96: conv4_block2_2_conv float32
+   Layer has 2 weights
+  [conv4_block2_2_conv/kernel:0] (3, 3, 256, 256) <dtype: 'float32'>
+  [conv4_block2_2_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 97: conv4_block2_2_bn float32
+   Layer has 4 weights
+  [conv4_block2_2_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block2_2_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block2_2_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block2_2_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 98: conv4_block2_2_relu float32
+Layer 99: conv4_block2_3_conv float32
+   Layer has 2 weights
+  [conv4_block2_3_conv/kernel:0] (1, 1, 256, 1024) <dtype: 'float32'>
+  [conv4_block2_3_conv/bias:0] (1024,) <dtype: 'float32'>
+Layer 100: conv4_block2_3_bn float32
+   Layer has 4 weights
+  [conv4_block2_3_bn/gamma:0] (1024,) <dtype: 'float32'>
+  [conv4_block2_3_bn/beta:0] (1024,) <dtype: 'float32'>
+  [conv4_block2_3_bn/moving_mean:0] (1024,) <dtype: 'float32'>
+  [conv4_block2_3_bn/moving_variance:0] (1024,) <dtype: 'float32'>
+Layer 101: conv4_block2_add float32
+Layer 102: conv4_block2_out float32
+Layer 103: conv4_block3_1_conv float32
+   Layer has 2 weights
+  [conv4_block3_1_conv/kernel:0] (1, 1, 1024, 256) <dtype: 'float32'>
+  [conv4_block3_1_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 104: conv4_block3_1_bn float32
+   Layer has 4 weights
+  [conv4_block3_1_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block3_1_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block3_1_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block3_1_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 105: conv4_block3_1_relu float32
+Layer 106: conv4_block3_2_conv float32
+   Layer has 2 weights
+  [conv4_block3_2_conv/kernel:0] (3, 3, 256, 256) <dtype: 'float32'>
+  [conv4_block3_2_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 107: conv4_block3_2_bn float32
+   Layer has 4 weights
+  [conv4_block3_2_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block3_2_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block3_2_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block3_2_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 108: conv4_block3_2_relu float32
+Layer 109: conv4_block3_3_conv float32
+   Layer has 2 weights
+  [conv4_block3_3_conv/kernel:0] (1, 1, 256, 1024) <dtype: 'float32'>
+  [conv4_block3_3_conv/bias:0] (1024,) <dtype: 'float32'>
+Layer 110: conv4_block3_3_bn float32
+   Layer has 4 weights
+  [conv4_block3_3_bn/gamma:0] (1024,) <dtype: 'float32'>
+  [conv4_block3_3_bn/beta:0] (1024,) <dtype: 'float32'>
+  [conv4_block3_3_bn/moving_mean:0] (1024,) <dtype: 'float32'>
+  [conv4_block3_3_bn/moving_variance:0] (1024,) <dtype: 'float32'>
+Layer 111: conv4_block3_add float32
+Layer 112: conv4_block3_out float32
+Layer 113: conv4_block4_1_conv float32
+   Layer has 2 weights
+  [conv4_block4_1_conv/kernel:0] (1, 1, 1024, 256) <dtype: 'float32'>
+  [conv4_block4_1_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 114: conv4_block4_1_bn float32
+   Layer has 4 weights
+  [conv4_block4_1_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block4_1_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block4_1_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block4_1_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 115: conv4_block4_1_relu float32
+Layer 116: conv4_block4_2_conv float32
+   Layer has 2 weights
+  [conv4_block4_2_conv/kernel:0] (3, 3, 256, 256) <dtype: 'float32'>
+  [conv4_block4_2_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 117: conv4_block4_2_bn float32
+   Layer has 4 weights
+  [conv4_block4_2_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block4_2_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block4_2_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block4_2_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 118: conv4_block4_2_relu float32
+Layer 119: conv4_block4_3_conv float32
+   Layer has 2 weights
+  [conv4_block4_3_conv/kernel:0] (1, 1, 256, 1024) <dtype: 'float32'>
+  [conv4_block4_3_conv/bias:0] (1024,) <dtype: 'float32'>
+Layer 120: conv4_block4_3_bn float32
+   Layer has 4 weights
+  [conv4_block4_3_bn/gamma:0] (1024,) <dtype: 'float32'>
+  [conv4_block4_3_bn/beta:0] (1024,) <dtype: 'float32'>
+  [conv4_block4_3_bn/moving_mean:0] (1024,) <dtype: 'float32'>
+  [conv4_block4_3_bn/moving_variance:0] (1024,) <dtype: 'float32'>
+Layer 121: conv4_block4_add float32
+Layer 122: conv4_block4_out float32
+Layer 123: conv4_block5_1_conv float32
+   Layer has 2 weights
+  [conv4_block5_1_conv/kernel:0] (1, 1, 1024, 256) <dtype: 'float32'>
+  [conv4_block5_1_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 124: conv4_block5_1_bn float32
+   Layer has 4 weights
+  [conv4_block5_1_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block5_1_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block5_1_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block5_1_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 125: conv4_block5_1_relu float32
+Layer 126: conv4_block5_2_conv float32
+   Layer has 2 weights
+  [conv4_block5_2_conv/kernel:0] (3, 3, 256, 256) <dtype: 'float32'>
+  [conv4_block5_2_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 127: conv4_block5_2_bn float32
+   Layer has 4 weights
+  [conv4_block5_2_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block5_2_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block5_2_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block5_2_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 128: conv4_block5_2_relu float32
+Layer 129: conv4_block5_3_conv float32
+   Layer has 2 weights
+  [conv4_block5_3_conv/kernel:0] (1, 1, 256, 1024) <dtype: 'float32'>
+  [conv4_block5_3_conv/bias:0] (1024,) <dtype: 'float32'>
+Layer 130: conv4_block5_3_bn float32
+   Layer has 4 weights
+  [conv4_block5_3_bn/gamma:0] (1024,) <dtype: 'float32'>
+  [conv4_block5_3_bn/beta:0] (1024,) <dtype: 'float32'>
+  [conv4_block5_3_bn/moving_mean:0] (1024,) <dtype: 'float32'>
+  [conv4_block5_3_bn/moving_variance:0] (1024,) <dtype: 'float32'>
+Layer 131: conv4_block5_add float32
+Layer 132: conv4_block5_out float32
+Layer 133: conv4_block6_1_conv float32
+   Layer has 2 weights
+  [conv4_block6_1_conv/kernel:0] (1, 1, 1024, 256) <dtype: 'float32'>
+  [conv4_block6_1_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 134: conv4_block6_1_bn float32
+   Layer has 4 weights
+  [conv4_block6_1_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block6_1_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block6_1_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block6_1_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 135: conv4_block6_1_relu float32
+Layer 136: conv4_block6_2_conv float32
+   Layer has 2 weights
+  [conv4_block6_2_conv/kernel:0] (3, 3, 256, 256) <dtype: 'float32'>
+  [conv4_block6_2_conv/bias:0] (256,) <dtype: 'float32'>
+Layer 137: conv4_block6_2_bn float32
+   Layer has 4 weights
+  [conv4_block6_2_bn/gamma:0] (256,) <dtype: 'float32'>
+  [conv4_block6_2_bn/beta:0] (256,) <dtype: 'float32'>
+  [conv4_block6_2_bn/moving_mean:0] (256,) <dtype: 'float32'>
+  [conv4_block6_2_bn/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 138: conv4_block6_2_relu float32
+Layer 139: conv4_block6_3_conv float32
+   Layer has 2 weights
+  [conv4_block6_3_conv/kernel:0] (1, 1, 256, 1024) <dtype: 'float32'>
+  [conv4_block6_3_conv/bias:0] (1024,) <dtype: 'float32'>
+Layer 140: conv4_block6_3_bn float32
+   Layer has 4 weights
+  [conv4_block6_3_bn/gamma:0] (1024,) <dtype: 'float32'>
+  [conv4_block6_3_bn/beta:0] (1024,) <dtype: 'float32'>
+  [conv4_block6_3_bn/moving_mean:0] (1024,) <dtype: 'float32'>
+  [conv4_block6_3_bn/moving_variance:0] (1024,) <dtype: 'float32'>
+Layer 141: conv4_block6_add float32
+Layer 142: conv4_block6_out float32
+Layer 143: conv5_block1_1_conv float32
+   Layer has 2 weights
+  [conv5_block1_1_conv/kernel:0] (1, 1, 1024, 512) <dtype: 'float32'>
+  [conv5_block1_1_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 144: conv5_block1_1_bn float32
+   Layer has 4 weights
+  [conv5_block1_1_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv5_block1_1_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv5_block1_1_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv5_block1_1_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 145: conv5_block1_1_relu float32
+Layer 146: conv5_block1_2_conv float32
+   Layer has 2 weights
+  [conv5_block1_2_conv/kernel:0] (3, 3, 512, 512) <dtype: 'float32'>
+  [conv5_block1_2_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 147: conv5_block1_2_bn float32
+   Layer has 4 weights
+  [conv5_block1_2_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv5_block1_2_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv5_block1_2_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv5_block1_2_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 148: conv5_block1_2_relu float32
+Layer 149: conv5_block1_0_conv float32
+   Layer has 2 weights
+  [conv5_block1_0_conv/kernel:0] (1, 1, 1024, 2048) <dtype: 'float32'>
+  [conv5_block1_0_conv/bias:0] (2048,) <dtype: 'float32'>
+Layer 150: conv5_block1_3_conv float32
+   Layer has 2 weights
+  [conv5_block1_3_conv/kernel:0] (1, 1, 512, 2048) <dtype: 'float32'>
+  [conv5_block1_3_conv/bias:0] (2048,) <dtype: 'float32'>
+Layer 151: conv5_block1_0_bn float32
+   Layer has 4 weights
+  [conv5_block1_0_bn/gamma:0] (2048,) <dtype: 'float32'>
+  [conv5_block1_0_bn/beta:0] (2048,) <dtype: 'float32'>
+  [conv5_block1_0_bn/moving_mean:0] (2048,) <dtype: 'float32'>
+  [conv5_block1_0_bn/moving_variance:0] (2048,) <dtype: 'float32'>
+Layer 152: conv5_block1_3_bn float32
+   Layer has 4 weights
+  [conv5_block1_3_bn/gamma:0] (2048,) <dtype: 'float32'>
+  [conv5_block1_3_bn/beta:0] (2048,) <dtype: 'float32'>
+  [conv5_block1_3_bn/moving_mean:0] (2048,) <dtype: 'float32'>
+  [conv5_block1_3_bn/moving_variance:0] (2048,) <dtype: 'float32'>
+Layer 153: conv5_block1_add float32
+Layer 154: conv5_block1_out float32
+Layer 155: conv5_block2_1_conv float32
+   Layer has 2 weights
+  [conv5_block2_1_conv/kernel:0] (1, 1, 2048, 512) <dtype: 'float32'>
+  [conv5_block2_1_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 156: conv5_block2_1_bn float32
+   Layer has 4 weights
+  [conv5_block2_1_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv5_block2_1_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv5_block2_1_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv5_block2_1_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 157: conv5_block2_1_relu float32
+Layer 158: conv5_block2_2_conv float32
+   Layer has 2 weights
+  [conv5_block2_2_conv/kernel:0] (3, 3, 512, 512) <dtype: 'float32'>
+  [conv5_block2_2_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 159: conv5_block2_2_bn float32
+   Layer has 4 weights
+  [conv5_block2_2_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv5_block2_2_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv5_block2_2_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv5_block2_2_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 160: conv5_block2_2_relu float32
+Layer 161: conv5_block2_3_conv float32
+   Layer has 2 weights
+  [conv5_block2_3_conv/kernel:0] (1, 1, 512, 2048) <dtype: 'float32'>
+  [conv5_block2_3_conv/bias:0] (2048,) <dtype: 'float32'>
+Layer 162: conv5_block2_3_bn float32
+   Layer has 4 weights
+  [conv5_block2_3_bn/gamma:0] (2048,) <dtype: 'float32'>
+  [conv5_block2_3_bn/beta:0] (2048,) <dtype: 'float32'>
+  [conv5_block2_3_bn/moving_mean:0] (2048,) <dtype: 'float32'>
+  [conv5_block2_3_bn/moving_variance:0] (2048,) <dtype: 'float32'>
+Layer 163: conv5_block2_add float32
+Layer 164: conv5_block2_out float32
+Layer 165: conv5_block3_1_conv float32
+   Layer has 2 weights
+  [conv5_block3_1_conv/kernel:0] (1, 1, 2048, 512) <dtype: 'float32'>
+  [conv5_block3_1_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 166: conv5_block3_1_bn float32
+   Layer has 4 weights
+  [conv5_block3_1_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv5_block3_1_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv5_block3_1_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv5_block3_1_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 167: conv5_block3_1_relu float32
+Layer 168: conv5_block3_2_conv float32
+   Layer has 2 weights
+  [conv5_block3_2_conv/kernel:0] (3, 3, 512, 512) <dtype: 'float32'>
+  [conv5_block3_2_conv/bias:0] (512,) <dtype: 'float32'>
+Layer 169: conv5_block3_2_bn float32
+   Layer has 4 weights
+  [conv5_block3_2_bn/gamma:0] (512,) <dtype: 'float32'>
+  [conv5_block3_2_bn/beta:0] (512,) <dtype: 'float32'>
+  [conv5_block3_2_bn/moving_mean:0] (512,) <dtype: 'float32'>
+  [conv5_block3_2_bn/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 170: conv5_block3_2_relu float32
+Layer 171: conv5_block3_3_conv float32
+   Layer has 2 weights
+  [conv5_block3_3_conv/kernel:0] (1, 1, 512, 2048) <dtype: 'float32'>
+  [conv5_block3_3_conv/bias:0] (2048,) <dtype: 'float32'>
+Layer 172: conv5_block3_3_bn float32
+   Layer has 4 weights
+  [conv5_block3_3_bn/gamma:0] (2048,) <dtype: 'float32'>
+  [conv5_block3_3_bn/beta:0] (2048,) <dtype: 'float32'>
+  [conv5_block3_3_bn/moving_mean:0] (2048,) <dtype: 'float32'>
+  [conv5_block3_3_bn/moving_variance:0] (2048,) <dtype: 'float32'>
+Layer 173: conv5_block3_add float32
+Layer 174: conv5_block3_out float32
+Layer 175: up_sampling2d float32
+Layer 176: concatenate float32
+Layer 177: conv2d float32
+   Layer has 2 weights
+  [conv2d/kernel:0] (3, 3, 3072, 512) <dtype: 'float32'>
+  [conv2d/bias:0] (512,) <dtype: 'float32'>
+Layer 178: batch_normalization float32
+   Layer has 4 weights
+  [batch_normalization/gamma:0] (512,) <dtype: 'float32'>
+  [batch_normalization/beta:0] (512,) <dtype: 'float32'>
+  [batch_normalization/moving_mean:0] (512,) <dtype: 'float32'>
+  [batch_normalization/moving_variance:0] (512,) <dtype: 'float32'>
+Layer 179: activation float32
+Layer 180: up_sampling2d_1 float32
+Layer 181: concatenate_1 float32
+Layer 182: conv2d_1 float32
+   Layer has 2 weights
+  [conv2d_1/kernel:0] (3, 3, 1024, 256) <dtype: 'float32'>
+  [conv2d_1/bias:0] (256,) <dtype: 'float32'>
+Layer 183: batch_normalization_1 float32
+   Layer has 4 weights
+  [batch_normalization_1/gamma:0] (256,) <dtype: 'float32'>
+  [batch_normalization_1/beta:0] (256,) <dtype: 'float32'>
+  [batch_normalization_1/moving_mean:0] (256,) <dtype: 'float32'>
+  [batch_normalization_1/moving_variance:0] (256,) <dtype: 'float32'>
+Layer 184: activation_1 float32
+Layer 185: up_sampling2d_2 float32
+Layer 186: concatenate_2 float32
+Layer 187: conv2d_2 float32
+   Layer has 2 weights
+  [conv2d_2/kernel:0] (3, 3, 512, 128) <dtype: 'float32'>
+  [conv2d_2/bias:0] (128,) <dtype: 'float32'>
+Layer 188: batch_normalization_2 float32
+   Layer has 4 weights
+  [batch_normalization_2/gamma:0] (128,) <dtype: 'float32'>
+  [batch_normalization_2/beta:0] (128,) <dtype: 'float32'>
+  [batch_normalization_2/moving_mean:0] (128,) <dtype: 'float32'>
+  [batch_normalization_2/moving_variance:0] (128,) <dtype: 'float32'>
+Layer 189: activation_2 float32
+Layer 190: up_sampling2d_3 float32
+Layer 191: concatenate_3 float32
+Layer 192: conv2d_3 float32
+   Layer has 2 weights
+  [conv2d_3/kernel:0] (3, 3, 192, 64) <dtype: 'float32'>
+  [conv2d_3/bias:0] (64,) <dtype: 'float32'>
+Layer 193: batch_normalization_3 float32
+   Layer has 4 weights
+  [batch_normalization_3/gamma:0] (64,) <dtype: 'float32'>
+  [batch_normalization_3/beta:0] (64,) <dtype: 'float32'>
+  [batch_normalization_3/moving_mean:0] (64,) <dtype: 'float32'>
+  [batch_normalization_3/moving_variance:0] (64,) <dtype: 'float32'>
+Layer 194: activation_3 float32
+Layer 195: up_sampling2d_4 float32
+Layer 196: conv2d_4 float32
+   Layer has 2 weights
+  [conv2d_4/kernel:0] (3, 3, 64, 32) <dtype: 'float32'>
+  [conv2d_4/bias:0] (32,) <dtype: 'float32'>
+Layer 197: batch_normalization_4 float32
+   Layer has 4 weights
+  [batch_normalization_4/gamma:0] (32,) <dtype: 'float32'>
+  [batch_normalization_4/beta:0] (32,) <dtype: 'float32'>
+  [batch_normalization_4/moving_mean:0] (32,) <dtype: 'float32'>
+  [batch_normalization_4/moving_variance:0] (32,) <dtype: 'float32'>
+Layer 198: activation_4 float32
+Layer 199: conv2d_5 float32
+   Layer has 2 weights
+  [conv2d_5/kernel:0] (1, 1, 32, 1) <dtype: 'float32'>
+  [conv2d_5/bias:0] (1,) <dtype: 'float32'>
+Layer 200: activation_5 float32
