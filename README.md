@@ -5,13 +5,19 @@ Training Unet model base on resnet50 and apply cpp for deployment base on ggml r
 
 ## Quick start
 
-Download files: [modelunet.gguf](https://huggingface.co/FahNos/defec_detection_model_unet/resolve/main/modelunet.gguf?download=true), [ggml.dll](https://huggingface.co/FahNos/defec_detection_model_unet/resolve/main/ggml.dll?download=true) and [unet.exe](https://huggingface.co/FahNos/defec_detection_model_unet/resolve/main/unet.exe?download=true)
+Download files: [modelunet.gguf](https://huggingface.co/FahNos/defec_detection_model_unet/resolve/main/modelunet.gguf?download=true), [ggml.dll](https://github.com/FahNos/defect-detection-with-unet-model-by-cpp/blob/main/ggml.dll) and [unet.exe](https://huggingface.co/FahNos/defec_detection_model_unet/resolve/main/unet.exe?download=true)
 
 ```bash
 cd unet folder
 unet -i image.jpg
 ```
-Running with CUDA on window os
+Running with CUDA
+Download [ggml.dll for CUDA](https://huggingface.co/FahNos/defec_detection_model_unet/resolve/main/ggml.dll?download=true)
+```bash
+cd unet folder
+unet -i image.jpg
+```
+or pull repository [ggml](https://github.com/ggerganov/ggml) and build on window os
 ```bash
 cd ggml
 cmake -DGGML_CUDA=ON -DCMAKE_CUDA_COMPILER="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe
